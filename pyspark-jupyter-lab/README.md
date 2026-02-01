@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PySpark Jupyter Lab Notebook - Python v3.10
 
 Jupyter Lab Notebook with root access.
@@ -9,9 +8,9 @@ EaseWithApacheSpark notebooks provided to start with.
 
 ### To create container from image
     docker run -d -p 8888:8888 -p 4040:4040 --name jupyter-lab easewithdata/pyspark-jupyter-lab
-=======
-# Docker Images
-Creating public images for few of the popular services.
 
-For Ease with Apache Spark notebooks checkout : https://github.com/subhamkharwal/ease-with-apache-spark
->>>>>>> 65c1985e922a488872ad2c7fdc1f4d23c6f17102
+> [!CAUTION]
+> In case you want to make setup easy, follow the below step.
+
+## In case you are still not able to setup, just pull the image from docker hub
+    docker pull easewithdata/pyspark-jupyter-lab
