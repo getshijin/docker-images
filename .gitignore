@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ./node_modules
 # Local .terraform directories
 **/.terraform/*
@@ -41,3 +42,6 @@ terraform.rc
 .terragrunt-cache
 
 testing/
+=======
+.idea/*
+>>>>>>> 61ca9e94277d1b1ddb075f934eeff84ca8fdca6d

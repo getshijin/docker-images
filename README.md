@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DockercomposeNodejsMongodb#
 To create the docker compose with multiple container with Nodejs as frontend and Backend as Mongodb 
 
@@ -42,3 +43,22 @@ npm install express mongoose body-parser
 
 
 
+=======
+<<<<<<< HEAD
+# PySpark Jupyter Lab Notebook - Python v3.10
+
+Jupyter Lab Notebook with root access.
+EaseWithApacheSpark notebooks provided to start with.
+
+### To build image from the Dockerfile:
+    docker build --tag easewithdata/pyspark-jupyter-lab .
+
+### To create container from image
+    docker run -d -p 8888:8888 -p 4040:4040 --name jupyter-lab easewithdata/pyspark-jupyter-lab
+=======
+# Docker Images
+Creating public images for few of the popular services.
+
+For Ease with Apache Spark notebooks checkout : https://github.com/subhamkharwal/ease-with-apache-spark
+>>>>>>> 65c1985e922a488872ad2c7fdc1f4d23c6f17102
+>>>>>>> 61ca9e94277d1b1ddb075f934eeff84ca8fdca6d

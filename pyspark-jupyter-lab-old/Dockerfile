@@ -1,5 +1,5 @@
-# Base Python 3.10 image
-FROM python:3.10-bullseye
+# Base Python 3.7.10 image
+FROM python:3.7-bullseye
 
 # Expose Port
 EXPOSE 8888 4040
@@ -12,7 +12,7 @@ RUN pip install --upgrade pip
 
 # Install OpenJDK
 RUN apt-get update && \
-    apt install -y openjdk-11-jdk && \
+    apt-get install -y openjdk-11-jdk && \
     apt-get clean;
     
 # Fix certificate issues
